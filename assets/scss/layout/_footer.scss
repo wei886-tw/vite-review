@@ -108,3 +108,117 @@
 		}
 	}
 }
+
+@media (max-width: 996px) {
+	.footer {
+		.navBar {
+            padding: 56px 0px 0px 0px;
+            .nav{
+                margin-bottom: 31px;
+            }
+			.info {
+				width: 70%;
+			}
+
+			.iconBox {
+                gap: 16px;
+				li {
+                    a{
+                        img {
+                            width: 40px;
+                            height: auto;
+                        }
+                    }
+					
+				}
+			}
+		}
+
+		.law {
+			.copyright {
+                padding-bottom: 40px;
+
+				.copyright-tw {
+					margin-right: 48px;
+					&:last-child{
+						margin-right: 0px;
+					}
+                    li{
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    
+				}
+
+			}
+		}
+		
+	}
+}
+
+@media (max-width: 767px) {
+    .footer {
+		.container {
+			.navBar {
+				padding: 24px 0px 0px 0px;
+				.info {
+					.nav {
+						display: none;
+					}
+					img {
+						width: 18px;
+						height: auto;
+					}
+					.footer-tel,
+					.footer-email {
+						a {
+							font-size: 16px;
+						}
+					}
+				}
+
+				.iconBox {
+					li {
+						margin-right: 8px;
+
+						img {
+							width: 24px;
+							height: auto;
+						}
+					}
+				}
+			}
+
+			.law {
+				img {
+					display: inline-block;
+
+					max-width: 36px;
+					height: auto;
+				}
+
+				span {
+					font-size: 36px;
+					color: white;
+				}
+
+				.horizontal-line {
+					margin: 24px 16px;
+					padding: 0px;
+				}
+
+				.copyright {
+					p {
+						width: 100%;
+						margin-bottom: 8px;
+					}
+
+					.copyright-tw {
+						flex-direction: column;
+					}
+				}
+			}
+		}
+	}
+}

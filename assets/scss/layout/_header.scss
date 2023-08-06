@@ -31,3 +31,37 @@
 		}
 	}
 }
+
+@media (max-width: 996px) {
+	.container {
+		max-width: 696px;
+
+    }
+}
+
+@media (max-width: 767px) {
+	.header {
+		.container {
+			flex-direction: column;
+			.menu {
+				width: 100%;
+				flex-wrap: wrap;
+				gap: 0px;
+
+
+				li {
+					width: 50%;
+
+					margin-right: 0px;
+					border: 1px solid white;
+
+
+					a {
+						text-align: center;
+                        padding: 12px 0px;
+					}
+				}
+			}
+		}
+	}
+}

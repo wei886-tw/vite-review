@@ -274,11 +274,11 @@ h2 {
 		// vertical-align:text-top;
 	}
 
-	.input-acception {
+	.input-acceptation {
 		margin-bottom: 48px;
 	}
 
-	.input-name, .input-tel, .input-email, .input-acception, .input-suggestion{
+	.input-name, .input-tel, .input-email, .input-acceptation, .input-suggestion{
 		outline:black;
 		width: 100%;
 	}
@@ -393,4 +393,135 @@ h2 {
 			}
 		}
 	}
+}
+
+
+@media (max-width: 996px) {
+	.container {
+		max-width: 696px;
+
+    }
+
+
+	.specialty{
+		li{
+			width: 48%;
+		}
+
+		p{
+			margin-bottom: 60px;
+		}
+		
+	}
+	
+	.classical-glasses{
+	
+	ul{
+		li{
+			width: 100%;
+		}
+	}
+	
+	}
+	
+	.bg-cover2{
+
+	ul{
+		gap:24px;
+	}
+
+	li{
+		width: 100%;;
+
+	}
+	}
+
+	.cards-box{
+		.card{
+			width: 48%;
+		}
+	}
+
+	.contact-us{
+		width: 83.3%;
+	}
+}
+
+@media (max-width: 767px) {
+	.banner{
+		background-image: url("../img/home-header-sm.png");
+		.left-side-content{
+			padding: 144px 0px;
+			h2{
+				font-size: 16px;
+			}
+
+			h3{
+				font-size: 24px;
+			}
+	}
+	}	
+
+	.bg-pink{
+		.pro{
+			h2{
+				font-size: 24px;
+				padding-top: 40px;
+				margin-bottom: 32px;
+
+			}
+		}
+	}
+
+	.specialty{
+		gap: 0px;
+		li{
+			width: 100%;
+		}
+
+		p{
+			margin-bottom: 0px;
+		}
+
+	}
+	
+	.classical-glasses{
+		h2{
+			padding-top: 40px;
+			margin-bottom: 24px;
+			font-size: 24px;
+		}
+
+		ul{
+			li{
+				a{
+					margin-bottom: 0px;
+				}
+				&:last-child{
+					a{
+						margin-bottom: 40px;
+					}
+				}
+			}
+		}
+	}
+
+	.cards-box{
+		gap: 16px;
+		margin-bottom: 40px;
+		.card{
+			width: 100%;
+		}
+	}
+
+	.bg-pink2{
+		.submit{
+			width: 100%;
+		}
+	}
+
+	.contact-us{
+		width: 100%;
+	}
+
 }

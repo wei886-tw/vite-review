@@ -5,6 +5,9 @@ import path from 'node:path';
 import { glob } from 'glob';
 
 import liveReload from 'vite-plugin-live-reload';
+import ViteSass from 'vite-plugin-sass';
+
+
 
 function moveOutputPlugin() {
   return {
@@ -30,6 +33,8 @@ export default defineConfig({
     liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
     ViteEjsPlugin(),
     moveOutputPlugin(),
+    ViteSass({ sourceMap: true }),
+    
   ],
   server: {
     // 啟動 server 時預設開啟的頁面
@@ -47,5 +52,9 @@ export default defineConfig({
       ),
     },
     outDir: 'dist',
+
+    css: {
+      sourceMap: true
+    }
   },
 });
