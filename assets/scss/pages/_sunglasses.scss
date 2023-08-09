@@ -159,27 +159,6 @@
 	}
 
 @media (max-width: 767px) {
-	.header {
-		.container {
-			flex-direction: column;
-			.menu {
-				width: 100%;
-				flex-wrap: wrap;
-				gap: 0px;
-
-				li {
-					width: 50%;
-					border: 1px solid white;
-
-					a {
-						text-align: center;
-						padding: 12px 0px;
-					}
-				}
-			}
-		}
-	}
-
 	.glasses-choice{
 		.choice-menu {
 			li {
