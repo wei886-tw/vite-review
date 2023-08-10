@@ -4,15 +4,6 @@
 	padding: 0px 12px;
 }
 
-// h2 {
-// 	font-size: 48px;
-// 	font-weight: bold;
-// 	color: #650300;
-// 	text-align: center;
-// 	padding-top: 80px;
-// 	margin-bottom: 48px;
-// }
-
 
 .banner {
 	width: 100%;
@@ -57,6 +48,8 @@
 		}
 	}
 }
+
+
 
 .bg-pink {
 	background: #fbf2f2;
@@ -238,17 +231,21 @@
 
 	.input-suggestion {
 		min-height: 136px;
-		// vertical-align:text-top;
+		a{
+			vertical-align: top;
+		}
 	}
 
 	.input-acceptation {
 		margin-bottom: 48px;
+
 	}
 
-	.input-name, .input-tel, .input-email, .input-acceptation, .input-suggestion{
+	.input-name, .input-tel, .input-email, .input-acceptation, .input-suggestion, textarea{
 		outline:black;
 		width: 100%;
 	}
+
 }
 
 

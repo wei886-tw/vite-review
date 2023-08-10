@@ -34,6 +34,12 @@
 
 	}
 
+	// select {
+	// 	width: 345%;
+	// 	height: 36px;
+	// 	border: 1px solid #ced4da;
+	// }
+
 	.cards-box {
 		display: flex;
 		flex-wrap: wrap;
@@ -42,9 +48,11 @@
 		margin-bottom: 56px;
 		gap: 24px 12px;
 		.card {
-			width: 32%;
+			width: 32.5%;
 			img {
 				border: 1px solid #00000020;
+				width: 100%; 
+				margin-bottom: 0px;
 			}
 
 			.material-symbols-outlined {
@@ -58,6 +66,7 @@
 				border: 1px solid #00000020;
 				padding: 7px 0px 7px 24px;
 				font-size: 24px;
+				margin-bottom: 0px;
 			}
 
 			.address {
@@ -117,7 +126,7 @@
 
     }
 
-    .content{
+    .each-store-content{
         h2{
             margin: 80px 0px 32px 0px;
         }
@@ -168,7 +177,7 @@
 }
 
 @media (max-width: 767px) {
-    .content {
+    .each-store-content {
 		h2 {
 			font-size: 24px;
 			margin: 96px 0px 32px 0px;

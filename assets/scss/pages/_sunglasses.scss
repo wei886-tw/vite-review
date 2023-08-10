@@ -109,17 +109,25 @@
 .page {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	margin-bottom: 80px;
 	li{
 		border: 1px solid #555555;
+		width: 42px;
 		&:not(:last-child){
 			border-right: none;
 		}
 	}
+	
+	.previous-page, .next-page{
+		width: 81px;
+	}
+
 	a {
 		color: black;
-		padding: 11px 16px;
+		padding: 11px 0px;
 		font-size: 18px;
+		text-align: center;
 		&:hover{
 			background: #000;
 			color: white;
@@ -204,14 +212,19 @@
 	.page{
 		width: 100%;
 		margin-bottom: 64px;
+		
+		
+		
 		a{
 			font-size: 16px;
 		}
+		li{
+			flex-basis: 12%;
+		}
 
 		.previous-page, .next-page{
-			padding: 11px 2px;
+			flex-basis: 20%;
 		}
 	}
 }
 
-	
