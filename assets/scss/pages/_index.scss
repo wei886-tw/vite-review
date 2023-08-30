@@ -1,5 +1,5 @@
 .container {
-	max-width: 1296px;
+	max-width: 1320px;
 	margin: 0 auto;
 	padding: 0px 12px;
 }
@@ -34,12 +34,14 @@
 			width: 104px;
 			height: 41px;
 			margin-left: auto;
+			font-size: 20px;
+			color: white;
+			text-align: center;
+			padding: 6px 12px;
+
 
 			a {
-				font-size: 20px;
-				color: white;
-				text-align: center;
-				padding: 6px 12px;
+			
 				&:hover {
 					background: white;
 					color: #aa0601;
@@ -69,7 +71,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: center;
+
 	gap: 24px;
 	li {
 		width: 23%;
@@ -147,7 +149,7 @@
 
 	li {
 		width: 50%;
-		p {
+		h3 {
 			background: white;
 			text-align: center;
 			font-size: 48px;
@@ -223,6 +225,8 @@
 
 	input {
 		margin-bottom: 8px;
+		background: #fbf2f2;
+		border: 1px solid black;
 	}
 
 	label {
@@ -231,6 +235,7 @@
 
 	.input-suggestion {
 		min-height: 136px;
+
 		a{
 			vertical-align: top;
 		}
@@ -238,12 +243,15 @@
 
 	.input-acceptation {
 		margin-bottom: 48px;
+	
 
 	}
 
 	.input-name, .input-tel, .input-email, .input-acceptation, .input-suggestion, textarea{
-		outline:black;
+		border: 1px solid black;
 		width: 100%;
+		background: #fbf2f2;
+
 	}
 
 }
